@@ -153,7 +153,7 @@ form button:hover{
   place-content: center;
 
   opacity: 0;
-  visibility: 0;
+  visibility: hidden;
 
 }
 
