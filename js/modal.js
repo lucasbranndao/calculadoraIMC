@@ -13,3 +13,16 @@ export const Modal = {
     Modal.wrapper.classList.remove('open')
   }
 }
+
+
+Modal.buttonClose.onclick = () => {
+  Modal.close()
+}
+
+window.addEventListener('keydown', handleKeydonwn)
+
+function handleKeydonwn(event) {
+    if(event.key === 'Escape') {
+      Modal.close()
+    }
+}
